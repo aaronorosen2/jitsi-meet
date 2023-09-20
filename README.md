@@ -1,3 +1,15 @@
+How to install
+
+echo 524288 | sudo tee /proc/sys/fs/inotify/max_user_watches
+npm install
+make dev
+
+
+# now files will rebuild and refresh as changes are made.
+
+
+
+
 # <p align="center">Jitsi Meet</p>
 
 Jitsi Meet is a set of Open Source projects which empower users to use and deploy
